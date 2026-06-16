@@ -1,0 +1,16 @@
+----------Change directory--------------- 
+
+cd ns-allinone-3.40
+cd ns-3.40
+
+--------------------To build-------------------(not always need)
+./ns3 build
+
+----------To Execute File saved in scratch folder---------------
+
+./ns3 run scratch/<filename>  
+or 
+./ns3 run <filename.cc> 
+or
+./ns3 run <filename>  
+

@@ -1,0 +1,15 @@
+User Datagram Protocol (UDP) is a communications protocol that is primarily used to establish low-latency 
+and loss-tolerating connections between applications on the internet.
+
+TCP stands for Transmission Control Protocol a communications standard that enables application programs and computing devices to exchange 
+messages over a network.
+It is designed to send packets across the internet and ensure the successful delivery of data and messages over networks.
+
+TCP is a connection-oriented protocol, whereas UDP is a connectionless protocol.
+ A key difference between TCP and UDP is speed, as TCP is comparatively slower than UDP.
+ Overall, UDP is a much faster, simpler, and efficient protocol, however, retransmission of lost data packets is only possible with TCP.
+ 
+ TCP - used for traffic that you need all the data for. i.e HTML, pictures, etc. 
+ UDP - used for traffic that doesn't suffer much if a packet is dropped, i.e. video & voice streaming, some data channels of online games, etc.
+ 
+ TCP establishes a connection between a sender and receiver before data can be sent. UDP does not establish a connection before sending data.
